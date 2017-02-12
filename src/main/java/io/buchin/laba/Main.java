@@ -1,10 +1,7 @@
-package main.java.io.buchin.labaVersion2;
+package main.java.io.buchin.laba;
 
-import main.java.io.buchin.labaVersion2.parces.ExtractResours;
-import main.java.io.buchin.labaVersion2.parces.WordDublicatDetected;
-
-import java.util.ArrayList;
-import java.util.List;
+import main.java.io.buchin.laba.parces.ExtractResours;
+import main.java.io.buchin.laba.parces.WordDublicatDetected;
 
 
 /**

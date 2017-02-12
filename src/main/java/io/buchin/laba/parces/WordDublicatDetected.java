@@ -1,4 +1,4 @@
-package main.java.io.buchin.labaVersion2.parces;
+package main.java.io.buchin.laba.parces;
 
 import java.util.HashSet;
 import java.util.Set;

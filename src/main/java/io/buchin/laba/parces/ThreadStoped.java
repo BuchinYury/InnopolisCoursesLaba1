@@ -1,4 +1,4 @@
-package main.java.io.buchin.labaVersion2.parces;
+package main.java.io.buchin.laba.parces;
 
 /**
  * Created by yuri on 11.02.17.
