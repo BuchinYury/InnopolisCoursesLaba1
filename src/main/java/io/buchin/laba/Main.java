@@ -27,7 +27,7 @@ public class Main {
             }
         }
 
-        System.out.println(wordDublicatDetected.getListLength());
+        System.out.println(wordDublicatDetected.getSetLength());
         System.out.println("Парсинг ресурсов завершон");
 
     }

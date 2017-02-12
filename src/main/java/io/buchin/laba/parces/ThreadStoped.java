@@ -1,16 +1,28 @@
 package main.java.io.buchin.laba.parces;
 
 /**
- * Created by yuri on 11.02.17.
+ * Класс отвечающий за остановку потоков
+ * Created 11.02.17.
+ * @author Бучин Юрий
  */
 public class ThreadStoped {
-    private static volatile boolean threadWords = true;
+    /**
+     *  Флаг контролирующий работу потоков
+     */
+    private static volatile boolean threadWorks = true;
 
+    /**
+     *  Метод отвечающий за нахождение потоков в работающем состоянии
+     *  @return значение переменной threadWorks
+     */
     public static boolean executeThread() {
-        return threadWords;
+        return threadWorks;
     }
 
+    /**
+     *  Метод отвечающий за остановку потоков
+     */
     public static void stopedThreads() {
-        ThreadStoped.threadWords = false;
+        ThreadStoped.threadWorks = false;
     }
 }
